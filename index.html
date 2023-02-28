@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="stopwatch">
+           <span class="hour">00 :</span>
+           <span class="Minute">00 :</span>
+           <span class="Second">00 :</span>
+           <span class="Milisecond">000</span>
+        </div>
+        <div id="buttons">
+            <button  onclick="StartTimer()" class="Start">Start</button>
+            <button  onclick="StopTimer()" class="Pause">Pause</button>
+            <button  onclick="resetTimer()" class="Reset">Reset</button>
+            <button onclick="Castt()"  class="Cast">Cast</button>
+        </div>
+        <div class="cast"></div>
+    </div>
+</body>
+</html>
